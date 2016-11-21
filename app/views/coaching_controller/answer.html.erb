@@ -2,9 +2,9 @@
   <h1>Stupid coaching</h1>
 
   <h2>Your Question :</h2>
-  <p><%= params[:query] %></p>
+  <p><%= @query %></p>
   <h2>Your coach answer :</h2>
-  <p><%= coach_answer(params[:query]) %></p>
+  <p><%= @answer %></p>
 
   <%= link_to "Ask a new question", "/ask" %>
 </div>
